@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>asg4 srfulgha</title>
+    </head>
+
+    <body onload= "main()">
+        <canvas id="webgl" width="700" height="700">
+        Please use a browser that supports "canvas"
+        </canvas>
+        <p>  
+
+        Swap between Solar System and Volcano Island
+        <input type="button" value="SWAP WORLDS!!" id="solarSystemON"/>
+        <p></p>
+
+        --- General Controls --- <p></p>
+        <input type="button" value="Normal On"  id="normalOn"/>
+        <input type="button" value="Normal Off" id="normalOff"/>
+        <p></p>
+
+        Light switch
+        <input type="button" value="Light Switch" id="lightSwitch"/>
+        <p></p>
+
+        --- Space Controls --- <p></p>
+        Planet Animation
+        <input type="button" value="Animation On/Off" id="animaPlanet"/>
+        <p></p>
+   
+        Light X <input type="range" min="-25" max="25" value="0" class="slider" id="lightX"/>
+        Light Y <input type="range" min="-25" max="45" value="25" class="slider" id="lightY"/>
+        Light Z <input type="range" min="-25" max="25" value="0" class="slider" id="lightZ"/>
+        <p></p>
+
+        --- Island Controls --- <p></p>
+        Sun Animation
+        <input type="button" value="Animation On/Off" id="animaSun"/>
+        <p></p>
+        
+        Show Me Charizard! <input type="button" value="On/Off"  id="CharVis"/>  <p></p>
+        <p></p>
+
+
+        ~COMMANDS~
+        <p>WS - Move Forwards and Backwards
+        <p>AD - Move Left and Right
+        <p>ZX - Move Up and Down
+        <p>QE - Look Left and Right
+
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="lib/cuon-matrix-cse160.js"></script>
+        <script src="Triangle.js"></script>
+        <script src="Circle.js"></script>
+        <script src="Point.js"></script>
+        <script src="Cube.js"></script>
+        <script src="Sphere.js"></script>
+        <script src="Camera.js"></script>
+        <script src="asg4.js"></script>
+    </body>
+</html>
