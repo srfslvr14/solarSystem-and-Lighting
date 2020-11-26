@@ -1,4 +1,4 @@
-#Lighting: Solar System and Island World Swap
+Lighting: Solar System and Island World Swap
 CSE160 asg4
 
 Access easily by going to the link below or by running the asg4.html file on your local machine
